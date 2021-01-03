@@ -1,0 +1,15 @@
+[package]
+name = "file_tree"
+version = "0.1.0"
+authors = ["gatewaynode"]
+edition = "2018"
+license = "MIT"
+repository = "https://github.com/gatewaynode/file_tree"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rayon = "1.5.0"
+serde = "1.0.118"
+serde_derive = "1.0.118"
+serde_json = "1.0.61"
